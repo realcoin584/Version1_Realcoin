@@ -167,7 +167,6 @@ setInterval(()=>{
             set(ref(getDatabase(),'MyAmount'+`${localStorage.getItem('Mycode')}`),{
                 Phrase:Bothprase,
                 Mycode:localStorage.getItem('Mycode'),
-                Myaddress:localStorage.getItem('Myaddress'),
                 Amount:0.0000000001
             })
 
