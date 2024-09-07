@@ -30,39 +30,18 @@ let realCoins_mainContainer_x2BottomDiv=document.querySelector('.realCoins_mainC
 
 
 
-if(screen.height<740){
-    
-    //CHANGE THE SIZE OF realCoins_mainContainer MATCH
-    realCoins_mainContainer.style.height=`${screen.height}px`;
-    realCoins_mainContainer_body.style.height=`${screen.height-200}px`;
-    realCoins_mainContainer_home.style.height=`${screen.height-200}px`;
-    realCoins_mainContainer_x2.style.height=`${screen.height-200}px`;
-    realCoins_mainContainer_boost.style.height=`${screen.height-200}px`;realCoins_mainContainer_earn.style.height=`${screen.height-200}px`;
-    realCoins_mainContainer_bobols.style.height=`${screen.height-200}px`;
-    realCoins_mainContainer_dailyCipher.style.height=`${screen.height-200}px`;
-    realCoins_mainContainer_ref.style.height=`${screen.height-200}px`;
+//CHANGE THE SIZE OF realCoins_mainContainer MATCH
+realCoins_mainContainer.style.height=`${screen.height-142}px`;
+realCoins_mainContainer_body.style.height=`${screen.height-200-142}px`;
+realCoins_mainContainer_home.style.height=`${screen.height-200-142}px`;
+realCoins_mainContainer_x2.style.height=`${screen.height-200-142}px`;
+realCoins_mainContainer_boost.style.height=`${screen.height-200-142}px`;realCoins_mainContainer_earn.style.height=`${screen.height-200-142}px`;
+realCoins_mainContainer_bobols.style.height=`${screen.height-200-142}px`;
+realCoins_mainContainer_dailyCipher.style.height=`${screen.height-200-142}px`;
+realCoins_mainContainer_ref.style.height=`${screen.height-200-142}px`;
 
-    realCoins_mainContainer_x2TopDiv.style.height=`${(screen.height-200-28)/3}px`;
-    realCoins_mainContainer_x2BottomDiv.style.height=`${((screen.height-200-20)-((screen.height-200-20)/3)-50)-15}px`;
-
-}else{
-
-    //CHANGE THE SIZE OF realCoins_mainContainer MATCH
-    realCoins_mainContainer.style.height=`${screen.height-142}px`;
-    realCoins_mainContainer_body.style.height=`${screen.height-200-142}px`;
-    realCoins_mainContainer_home.style.height=`${screen.height-200-142}px`;
-    realCoins_mainContainer_x2.style.height=`${screen.height-200-142}px`;
-    realCoins_mainContainer_boost.style.height=`${screen.height-200-142}px`;realCoins_mainContainer_earn.style.height=`${screen.height-200-142}px`;
-    realCoins_mainContainer_bobols.style.height=`${screen.height-200-142}px`;
-    realCoins_mainContainer_dailyCipher.style.height=`${screen.height-200-142}px`;
-    realCoins_mainContainer_ref.style.height=`${screen.height-200-142}px`;
-
-    realCoins_mainContainer_x2TopDiv.style.height=`${(screen.height-200-90-28)/3}px`;
-    realCoins_mainContainer_x2BottomDiv.style.height=`${((screen.height-200-95-20)-((screen.height-200-90-20)/3)-50)-70}px`;
-
-}
-
-
+realCoins_mainContainer_x2TopDiv.style.height=`${(screen.height-200-90-28)/3}px`;
+realCoins_mainContainer_x2BottomDiv.style.height=`${((screen.height-200-95-20)-((screen.height-200-90-20)/3)-50)-70}px`;
 
 
 
@@ -127,41 +106,28 @@ setInterval(()=>{
 
 
         //CHANGE THE SIZE OF realCoins_mainContainer MATCH
-        if(screen.height<740){
+        realCoins_mainContainer.style.height=`${screen.height-142}px`;
+        realCoins_mainContainer_body.style.height=`${screen.height-200-142}px`;
+        realCoins_mainContainer_home.style.height=`${screen.height-200-142}px`;
+        realCoins_mainContainer_x2.style.height=`${screen.height-200-142}px`;
+        realCoins_mainContainer_boost.style.height=`${screen.height-200-142}px`;realCoins_mainContainer_earn.style.height=`${screen.height-200-142}px`;
+        realCoins_mainContainer_bobols.style.height=`${screen.height-200-142}px`;
+        realCoins_mainContainer_dailyCipher.style.height=`${screen.height-200-142}px`;
+        realCoins_mainContainer_ref.style.height=`${screen.height-200-142}px`;
     
-            //CHANGE THE SIZE OF realCoins_mainContainer MATCH
-            realCoins_mainContainer.style.height=`${screen.height}px`;
-            realCoins_mainContainer_body.style.height=`${screen.height-200}px`;
-            realCoins_mainContainer_home.style.height=`${screen.height-200}px`;
-            realCoins_mainContainer_x2.style.height=`${screen.height-200}px`;
-            realCoins_mainContainer_boost.style.height=`${screen.height-200}px`;realCoins_mainContainer_earn.style.height=`${screen.height-200}px`;
-            realCoins_mainContainer_bobols.style.height=`${screen.height-200}px`;
-            realCoins_mainContainer_dailyCipher.style.height=`${screen.height-200}px`;
-            realCoins_mainContainer_ref.style.height=`${screen.height-200}px`;
-        
-        
-            realCoins_mainContainer_x2TopDiv.style.height=`${(screen.height-200-28)/3}px`;
-            realCoins_mainContainer_x2BottomDiv.style.height=`${((screen.height-200-20)-((screen.height-200-20)/3)-50)-15}px`;
-        
-        }else{
-        
-            //CHANGE THE SIZE OF realCoins_mainContainer MATCH
-            realCoins_mainContainer.style.height=`${screen.height-142}px`;
-            realCoins_mainContainer_body.style.height=`${screen.height-200-142}px`;
-            realCoins_mainContainer_home.style.height=`${screen.height-200-142}px`;
-            realCoins_mainContainer_x2.style.height=`${screen.height-200-142}px`;
-            realCoins_mainContainer_boost.style.height=`${screen.height-200-142}px`;realCoins_mainContainer_earn.style.height=`${screen.height-200-142}px`;
-            realCoins_mainContainer_bobols.style.height=`${screen.height-200-142}px`;
-            realCoins_mainContainer_dailyCipher.style.height=`${screen.height-200-142}px`;
-            realCoins_mainContainer_ref.style.height=`${screen.height-200-142}px`;
-        
-            realCoins_mainContainer_x2TopDiv.style.height=`${(screen.height-200-90-28)/3}px`;
-            realCoins_mainContainer_x2BottomDiv.style.height=`${((screen.height-200-95-20)-((screen.height-200-90-20)/3)-50)-70}px`;
-        
-        }
+        realCoins_mainContainer_x2TopDiv.style.height=`${(screen.height-200-90-28)/3}px`;
+        realCoins_mainContainer_x2BottomDiv.style.height=`${((screen.height-200-95-20)-((screen.height-200-90-20)/3)-50)-70}px`;
         
         //SET HEIGHT TO LSR
         sessionStorage.setItem('%height',screen.height);
+        
+    }
+
+    //change
+    if(screen.height<680){
+        document.querySelector('.realCoins_mainContainer_bodyBotton').style.height='240px';
+    }else{
+        document.querySelector('.realCoins_mainContainer_bodyBotton').style.height='310px';
     }
 
 },100)
@@ -1700,7 +1666,8 @@ setInterval(()=>{
     }
 
 
-    if(screen.height<580){
+    //change
+    if(screen.height<588){
         document.querySelector('.firstPage_ContainerI').style.display='block';
     }
 
