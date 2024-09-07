@@ -96,10 +96,14 @@
 .realCoins_mainContainer_bodyBotton{
     border:none;
     width: 100%;
-    height: 340px;
+    height: 310px;
     position: absolute;
     bottom: 0px;
     left: 0px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .displayCoinsClaim{
     background-color: rgb(0, 0, 36);
@@ -107,20 +111,20 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 1000;
     font-size: 20px;
-    height: 44px;
-    padding: 6px;
+    height: 32px;
+    padding: 4px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     border-radius: 4px;
     margin: auto;
     color: rgb(255, 255, 255);
-    box-shadow: 0px 0px 1px rgb(0, 0, 150);
-    
+    box-shadow: 0px 0px 2px rgb(0, 0, 150);
 }
 .displayCoinsClaimIcon{
     border:none;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-right: 4px;
     background-image: url('');
     background-size: cover;
@@ -130,11 +134,10 @@
 .coinsClickButton_container{
     background-color: rgb(0, 0, 61);
     border: none;
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
     position: relative;
     margin: auto;
-    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 0px;
@@ -168,14 +171,14 @@
 
 .appearNumber1,.appearNumber2,.appearNumber3,.appearNumber4,.appearNumber5,.appearNumber6,.appearNumber7,.appearNumber8,.appearNumber9,.appearNumber10,.appearNumber11,.appearNumber12,.appearNumber13,.appearNumber14,.appearNumber15,.appearNumber16,.appearNumber17,.appearNumber18,.appearNumber19,.appearNumber20,.appearNumber21,.appearNumber22,.appearNumber23,.appearNumber24,.appearNumber25,.appearNumber26,.appearNumber27,.appearNumber28,.appearNumber29,.appearNumber30{
     border: none;
-    width: 20px;
-    height: 20px;
+    width: 14px;
+    height: 14px;
     position: absolute;
     display: block;
     bottom: 0px;
     font-style: normal;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
+    font-size: 14px;
     opacity: 0;
     color: rgb(255, 255, 255);
 }
@@ -189,92 +192,92 @@
     left: 0px;
 }
 .appearNumber2{
-    left: 20px;
+    left: 15px;
 }
 .appearNumber3{
-    left: 40px;
+    left: 30px;
 }
 .appearNumber4{
-    left: 60px;
+    left: 45px;
 }
 .appearNumber5{
-    left: 80px;
+    left: 60px;
 }
 .appearNumber6{
-    left: 100px;
+    left: 75px;
 }
 .appearNumber7{
-    left: 120px;
+    left: 90px;
 }
 .appearNumber8{
-    left: 140px;
+    left: 105px;
 }
 .appearNumber9{
-    left: 160px;
+    left: 120px;
 }
 .appearNumber10{
-    left: 180px;
+    left: 135px;
 }
 .appearNumber11{
     left: 0px;
 }
 .appearNumber12{
-    left: 20px;
+    left: 15px;
 }
 .appearNumber13{
-    left: 40px;
+    left: 30px;
 }
 .appearNumber14{
-    left: 60px;
+    left: 45px;
 }
 .appearNumber15{
-    left: 80px;
+    left: 60px;
 }
 .appearNumber16{
-    left: 100px;
+    left: 75px;
 }
 .appearNumber17{
-    left: 120px;
+    left: 90px;
 }
 .appearNumber18{
-    left: 140px;
+    left: 105px;
 }
 .appearNumber19{
-    left: 160px;
+    left: 120px;
 }
 .appearNumber20{
-    left: 180px;
+    left: 135px;
 }
 
 .appearNumber21{
     left: 0px;
 }
 .appearNumber22{
-    left: 20px;
+    left: 15px;
 }
 .appearNumber23{
-    left: 40px;
+    left: 30px;
 }
 .appearNumber24{
-    left: 60px;
+    left: 45px;
 }
 .appearNumber25{
-    left: 80px;
+    left: 60px;
 }
 .appearNumber26{
-    left: 100px;
+    left: 75px;
 }
 .appearNumber27{
-    left: 120px;
+    left: 90px;
 }
 .appearNumber28{
-    left: 140px;
+    left: 105px;
 }
 .appearNumber29{
-    left: 160px;
+    left: 120px;
 }
 .appearNumber30{
-    left: 180px;
+    left: 135px;
 }
 
 
@@ -282,26 +285,24 @@
 
 .displayByClick{
     border:none;
-    height: 65px;
+    height: 50px;
 }
 .claimButton{
     border: none;
     width: 200px;
-    height: 40px;
+    height: 30px;
     margin: auto;
-    margin-top: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: bold;
     position: relative;
     text-transform: uppercase;
     text-align: center;
-    padding: 9px;
+    padding: 6px;
     color: rgb(255, 255, 255);
     background-color: rgb(0, 0, 90);
     box-shadow: 0px 0px 5px rgb(0, 0, 255);
     border-radius: 4px;
-
 }
 .clickSign{
     background-image: linear-gradient(to right,rgba(255, 255, 255, 0.511),blue);
