@@ -105,6 +105,52 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
+
+
+/*--RANGE--*/
+.range_DC{
+    border:1px solid rgb(0, 17, 255);
+    background-color: transparent;
+    width: 17px;
+    height: 120px;
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    border-radius: 15px;
+}
+.range_C{
+    background-color: rgb(0, 0, 51);
+    width: 15px;
+    height: 120px;
+    position: relative;
+    border-radius: 15px;
+}
+.rangeMove{
+    background-color: rgb(0, 11, 158);
+    width: 100%;
+    height: 50px;/*120*/
+    position: absolute;
+    bottom: 2px;
+    left: 0px;
+    border-radius: 15px;
+}
+
+.rangeCount{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    color: white;
+
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+
+}
+
+
+/*--RANGE End--*/
+
 .displayCoinsClaim{
     background-color: rgb(0, 0, 36);
     max-width: 100px;
