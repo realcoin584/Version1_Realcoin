@@ -126,8 +126,17 @@ setInterval(()=>{
     //change
     if(screen.height<680){
         document.querySelector('.realCoins_mainContainer_bodyBotton').style.height='240px';
+
+        
+        document.querySelector('.range_DC').style.bottom='65px';
+        document.querySelector('.rangeCount').style.bottom='45px';
+        
     }else{
         document.querySelector('.realCoins_mainContainer_bodyBotton').style.height='310px';
+
+        
+        document.querySelector('.range_DC').style.bottom='100px';
+        document.querySelector('.rangeCount').style.bottom='80px';
     }
 
 },100)
