@@ -1985,3 +1985,18 @@ openWalletTelegram_button.addEventListener('click',()=>{
 
 
 
+/*--RANGE--*/
+setInterval(()=>{
+
+    document.querySelector('.rangeCount').innerText=`1200 / ${localStorage.getItem('coinsCount')}`;
+    document.querySelector('.rangeMove').style.height=`${120-(Number(localStorage.getItem('coinsCount'))/10)}px`;
+
+
+},100)
+
+
+/*--RANGE End--*/
+
+
+
+
