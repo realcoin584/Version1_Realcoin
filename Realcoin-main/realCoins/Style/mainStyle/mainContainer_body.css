@@ -110,7 +110,7 @@
 
 /*--RANGE--*/
 .range_DC{
-    border:1px solid rgb(0, 17, 255);
+    border:1px solid rgb(0, 11, 160);
     background-color: transparent;
     width: 17px;
     height: 120px;
@@ -127,7 +127,7 @@
     border-radius: 15px;
 }
 .rangeMove{
-    background-color: rgb(0, 11, 158);
+    background-image: linear-gradient(blue,red);
     width: 100%;
     height: 50px;/*120*/
     position: absolute;
