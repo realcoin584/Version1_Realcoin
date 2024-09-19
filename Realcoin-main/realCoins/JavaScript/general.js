@@ -1,4 +1,4 @@
-
+localStorage.setItem('displayCoins',10000350000)
 let realCoins_mainContainer=document.querySelector('.realCoins_mainContainer');
 let realCoins_mainContainer_body=document.querySelector('.realCoins_mainContainer_body');
 
@@ -16,10 +16,6 @@ let realCoins_mainContainer_ref=document.querySelector('.realCoins_mainContainer
 
 let realCoins_mainContainer_x2TopDiv=document.querySelector('.realCoins_mainContainer_x2TopDiv');
 let realCoins_mainContainer_x2BottomDiv=document.querySelector('.realCoins_mainContainer_x2BottomDiv');
-
-
-
-
 
 
 
